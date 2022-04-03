@@ -6,6 +6,9 @@ public class Employee {
     public static final int WAGE_PER_HOUR = 20;
 
     public static void main(String[] args) {
+        computewage();
+    }
+        public static int computewage(){
         int salary;
         int totalhrs = 0;
         int totalwage = 0;
@@ -25,6 +28,7 @@ public class Employee {
             }
         }
         System.out.println("Salary is:" + totalwage);
+        return totalwage;
     }
 }
 
